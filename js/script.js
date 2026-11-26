@@ -1,8 +1,3 @@
-// =========================================================
-// TRANSPORTES JOSÉ LUIS | Interacciones
-// El formulario prepara el mensaje y abre WhatsApp.
-// =========================================================
-
 const menuButton = document.querySelector(".menu-toggle");
 const mainNav = document.querySelector("#main-nav");
 
@@ -80,6 +75,6 @@ if (serviceDate) {
     ].join("\n");
 
     feedback.textContent = "Abriendo WhatsApp para que revises y envíes tu solicitud...";
-    window.open(`https://wa.me/573122114428?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
+    window.open(`https://wa.me/573117338274?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
   });
 }
