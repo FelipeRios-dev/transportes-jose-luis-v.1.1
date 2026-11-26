@@ -32,7 +32,7 @@ const generalMessage = encodeURIComponent(
   "Hola, Transportes José Luis. Quisiera consultar disponibilidad y cotizar un servicio de transporte de carga."
 );
 document.querySelectorAll(".whatsapp-link").forEach((link) => {
-  link.href = `https://wa.me/573122114428?text=${generalMessage}`;
+  link.href = `https://wa.me/573117338274?text=${generalMessage}`;
 });
 
 // Formulario: valida datos básicos y arma la solicitud.
